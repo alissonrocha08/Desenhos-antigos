@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+    color: white;
+
+}
+
+.desenhos-antigos{
+
+    padding-top: 5em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.txt-desenhos {
+    text-align: center;
+}
+
+.desenhos-de-cima {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.img-apenas-um-show{
+    width: 300px;
+    border-radius: 50%;
+}
+
+.p-apenas1show{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+}
+
+.apenas-um-show{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2em;
+
+    
+}
+
+
+.hora-de-aventura {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    align-items: center;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+}
+
+.img-hora-de-aventura {
+    width: 300px;
+    border-radius: 50%;
+}
+
+.desenhos-de-baixo{
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.jovens-titas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p-jovens-titas {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+}
+
+.img-jovens-titas {
+    width: 300px;
+    border-radius: 50%;
+}
+
+.clarencio-o-otimista{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    align-items: center;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+}
+
+.img-clarencio {
+    width: 300px;
+    border-radius: 50%;
+}
+
+::-webkit-scrollbar-track {
+    background-color: black;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    background: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 50px;
+}
